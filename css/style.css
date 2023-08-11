@@ -2720,7 +2720,7 @@ td.td-bg-hover, .tr-row {
 }
 
 
-#custom-checkbox:checked + .wpcf7-form-control.wpcf7-acceptance::before {
+#custom-checkbox:checked .wpcf7-form-control.wpcf7-acceptance::before {
     opacity: 1;
 }
 
