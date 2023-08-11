@@ -2672,7 +2672,12 @@ td.td-bg-hover, .tr-row {
     background:#964620
   }
 
-
+.wpcf7-not-valid-tip {
+    color: #e12100 !important;
+    font-size: 1em;
+    font-weight: 500 !important;
+    display: block;
+}
 
 
 
