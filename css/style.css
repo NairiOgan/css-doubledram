@@ -2712,7 +2712,7 @@ td.td-bg-hover, .tr-row {
 }
 
 .wpcf7-form-control.wpcf7-acceptance.checked::before {
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 #custom-checkbox {
