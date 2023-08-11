@@ -2711,7 +2711,7 @@ td.td-bg-hover, .tr-row {
     opacity: 0;
 }
 
-.custom-checkbox {
+#custom-checkbox {
     width: 0;
     height: 0;
     opacity: 0;
@@ -2720,7 +2720,7 @@ td.td-bg-hover, .tr-row {
 }
 
 
-.custom-checkbox:checked + .wpcf7-form-control.wpcf7-acceptance::before {
+#custom-checkbox:checked + .wpcf7-form-control.wpcf7-acceptance::before {
     opacity: 1;
 }
 
