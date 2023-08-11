@@ -2711,6 +2711,10 @@ td.td-bg-hover, .tr-row {
     opacity: 0;
 }
 
+.wpcf7-form-control.wpcf7-acceptance.checked::before {
+    opacity: 1;
+}
+
 #custom-checkbox {
     width: 0;
     height: 0;
@@ -2720,9 +2724,7 @@ td.td-bg-hover, .tr-row {
 }
 
 
-#custom-checkbox:checked .wpcf7-form-control.wpcf7-acceptance::before {
-    opacity: 1;
-}
+
 
 .checkbox-text {
     font-weight: 400;
