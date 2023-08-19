@@ -2,3 +2,13 @@
 .main-image-wrap {
   box-shadow: none;
 }
+
+@media screen and (max-width: 640px) {
+  .skills-wrap {
+      flex-direction: column;
+  }
+  .skills-wrap__item {
+    width: 100% !important;
+    margin-bottom: 20px;
+}
+}
